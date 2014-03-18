@@ -10,7 +10,7 @@ module.exports =
   activate: ->
     atom.config.setDefaults('test-status', {
       'test/*_test.rb': 'rake test',
-      'spec/*_spec.rb': 'rake spec',
+      'spec/*_spec.rb': 'rspec',
       'Gruntfile.*': 'grunt test'
       'script/test': 'script/test'
       'script/cibuild': 'script/cibuild'
